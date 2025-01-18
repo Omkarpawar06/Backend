@@ -1,5 +1,5 @@
 import express from 'express';
-import { HandleAdmin , HandleAdminSignup , getAdmins } from '../Controllers/admin.controller.js';
+import { HandleAdmin , HandleAdminSignup , getAdmins } from '../Controllers/Admin.controller.js';
 
 const router = express.Router();
 
